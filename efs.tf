@@ -1,6 +1,5 @@
 resource "aws_efs_file_system" "demo" {
   creation_token   = "demo-efs"
-#   encrypted        = true
   performance_mode = "generalPurpose"
   throughput_mode  = "elastic"
 
